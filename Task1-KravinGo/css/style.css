@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container {
+    background-image: radial-gradient(closest-corner at 200px 150px, pink, rgb(242, 242, 199), white);
+    background: linear-gradient(to right, rgb(232, 203, 208), rgb(218, 220, 184), white);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .heading {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #fff;
+    font-family: 'Poppins' sans-serif;
+    color: rgb(198, 40, 98);
+    /*  text-shadow: 0 5px 10px rgba(0, 0, 0, .2);*/
+    font-size: 45spx;
+}
+
+.container .box-container {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 30px;
+}
+
+.container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.container .box-container .box img {
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(228, 164, 43);
+    overflow: hidden;
+}
+
+.container .box-container .box h3 {
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p {
+    color: #777;
+    font-size: 10px;
+    line-height: 1.8;
+    padding: 10px 0;
+}
+
+/*.p{
+    color: #777;
+    font-size: 10px;
+    line-height: 1.8;
+    padding: 10px 0;
+    width: 40px;
+
+}*/
+.para {
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 0 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container .box-container .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover {
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+.my-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 10px;
+
+    cursor: pointer;
+    width: 200px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.b2 {
+    color: rgb(198, 40, 98);
+
+}
+
+.become-an {
+    background-color: var(--color-primary);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    color: var(--color-white);
+    transition: all 0.4s ease-in-out;
+}
+
+.container1 {
+    display: flex;
+    /* use flexbox to create a two-column layout */
+    justify-content: space-between;
+    /* space out the columns */
+    align-items: center;
+    /* center the content vertically */
+    padding: 40px;
+    /* add some padding to the container */
+    border: 1px solid #ccc;
+    /* add a border for visual separation */
+}
+
+.image {
+    flex-basis: 30%;
+
+    /* set the width of the image column */
+}
+
+.image img {
+    display: block;
+    /* remove any default image margins */
+    width: 100%;
+    /* set the image width to 100% of the container */
+    height: auto;
+    border-radius: 5%;
+    padding-inline-start: 20%;
+    /* allow the image height to adjust automatically */
+}
+
+.content {
+    flex-basis: 60%;
+    /* set the width of the content column */
+}
+
+.content h1 {
+    font-size: 30px;
+    /* set the heading font size */
+    margin-bottom: 10px;
+    color: rgb(198, 40, 98);
+
+    /* add some margin to the bottom */
+}
+
+.content p {
+    font-size: 16px;
+    /* set the content font size */
+    line-height: 1.5;
+    /* increase the line height for readability */
+    padding-bottom: 3%;
+}
+
+.content button {
+    background-color: rgb(198, 40, 98);
+    color: #fff;
+    border: none;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    gap: 30px;
+}
+
+.content button:last-of-type {
+    margin-right: 0;
+}
