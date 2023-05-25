@@ -1,10 +1,10 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyD2WYIytX175aUrc3oiXMBzBY08C74ThjQ",
-    authDomain: "fir-login-4b0fe.firebaseapp.com",
-    projectId: "fir-login-4b0fe",
-    storageBucket: "fir-login-4b0fe.appspot.com",
-    messagingSenderId: "552737924117",
-    appId: "1:552737924117:web:05f44d185675329a289a1c"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
